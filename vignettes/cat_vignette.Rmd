@@ -1,0 +1,40 @@
+---
+title: "Introduction to cat package!"
+output:
+  rmarkdown::html_document:
+    highlight: tango
+    toc: true
+    toc_float: true	
+vignette: >
+  %\VignetteIndexEntry{Introduction to cat package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Installing cat package
+
+Install it from my repository.
+
+# Loading cat package
+
+```{r setup}
+library(cats)
+```
+
+# How to use cat package
+
+If you love cats, just run
+
+```{r}
+cat_function()
+```
+
+
+
