@@ -1,0 +1,23 @@
+Package: cats
+Type: Package
+Title: Package for appreciation of cats
+Version: 0.1.0
+Author: Your name, your@gmail.com
+Maintainer: Your name <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+LazyDataCompression: xz
+Imports: 
+    dplyr,
+    Hmisc,
+    ggplot2
+Suggests: 
+    data.table,
+    knitr,
+    rmarkdown
+RoxygenNote: 7.2.2
+VignetteBuilder: knitr
+
