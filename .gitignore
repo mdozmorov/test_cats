@@ -1,0 +1,7 @@
+inst/doc
+/doc/
+/Meta/
+*.gz
+*.Rproj*
+.Rbuildignore
+
